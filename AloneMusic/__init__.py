@@ -32,3 +32,4 @@ Spotify = Spotify.SpotifyAPI()
 Resso = Resso.RessoAPI()
 Telegram = Telegram.TeleAPI()
 YouTube = Youtube.YouTubeAPI()
+JOIN_UPDATE_GROUP = 16
