@@ -31,22 +31,10 @@ from AloneMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 EMOJII = [
-    "🔥",
-    "💋",
-    "🥺",
-    "😒",
-    "💖",
-    "💘",
-    "💕",
-    "✨",
-    "🧪",
-    "🥰",
-    "🚩",
-    "🫦",
-    "💔",
-    "🦠",
-    "😓",
-    "🫧",
+    "Fɪɴᴅɪɴɢ ʏᴏᴜʀ Mᴏᴍᴍʏ's sʟᴇᴇᴘɪɴɢ ʟᴏᴄᴀᴛɪᴏɴ",
+    "Fɪɴᴅɪɴɢ Yᴏᴜʀ Cʀᴜsʜ",
+    "Wᴀɪᴛ Tɪʟʟ I ᴀᴍ ᴘʟᴀʏɪɴɢ ᴡɪᴛʜ ʏᴏᴜʀ sɪs",
+    "Aʙᴏᴜᴛ ᴛᴏ ᴄᴀᴍᴇ ᴀɴᴅ ʏᴏᴜʀ ǫᴜᴇʀʏ ʜᴀs ᴀʀʀɪsᴇᴅ",
 ]
 
 
@@ -89,7 +77,7 @@ async def play_commnd(
     emoji = random.choice(EMOJII)
 
     sticker_msg = await message.reply_sticker(
-        "CAACAgUAAyEFAASOlzVAAAEBbMVoZBvc22oR8X-QlMPpERj8bdrDtgAChAsAAjXBOFddqD7hjDYLoh4E"
+        "CAACAgUAAyEFAATTnIwMAAECGq1p4Ha9FKzxigyd2shhUXt0X2yaogACKgsAAkQPOVd8PorqqRg4CB4E"
     )
 
     asyncio.create_task(delete_after_delay(sticker_msg))
